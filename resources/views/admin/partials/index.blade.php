@@ -1,7 +1,7 @@
 @extends('admin.dashboard')
 
 @section('content')
-<div class="container" ng-contoller="adminCtrl">
+<div class="container" ng-controller="adminCtrl">
     <div class="row">
         [[Menus]]
         <div class="col-md-10 col-md-offset-1">

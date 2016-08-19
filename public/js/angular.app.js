@@ -42,7 +42,7 @@ app.config(function ($interpolateProvider) {
 
 app.controller('adminCtrl', function ($scope, $http, $sce) {
 
-    $scope.Menus={"asas":dsadsa};
+    $scope.Menus={"asas":'dsadsa'};
     $scope.Menu=[];
     $scope.idMenu=[];
     $scope.count=[];
