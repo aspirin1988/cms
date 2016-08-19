@@ -1,4 +1,6 @@
-@extends('admin.layouts.header')
+@extends('admin.dashboard')
+
+@section('content')
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -12,4 +14,5 @@
         </div>
     </div>
 </div>
-@extends('admin.layouts.footer')
+@endsection
+
