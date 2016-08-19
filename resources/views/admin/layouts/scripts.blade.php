@@ -2,3 +2,4 @@
 <script src="/js/uikit.min.js" ></script>
 <script src="/js/angular.app.min.js" ></script>
 <script src="/js/angular.app.js" ></script>
+<script src="/js/admin.app.js" ></script>

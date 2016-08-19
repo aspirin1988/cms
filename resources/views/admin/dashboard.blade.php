@@ -11,10 +11,16 @@
 
 @include('admin.layouts.header')
 
+<div class="tm-main uk-width-medium-3-4">
 
-@yield('content')
+    @yield('content')
+
+
+</div>
+</div>
 
     @include('admin.layouts.footer')
+
 
 </body>
 </html>
