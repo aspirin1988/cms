@@ -39,3 +39,15 @@ app.config(function ($interpolateProvider) {
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
 });
+
+app.controller('adminCtrl', function ($scope, $http, $sce) {
+
+    $scope.Menus={"asas":dsadsa};
+    $scope.Menu=[];
+    $scope.idMenu=[];
+    $scope.count=[];
+    $scope.myHTML=[];
+
+
+
+});
