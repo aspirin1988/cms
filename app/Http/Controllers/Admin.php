@@ -15,7 +15,7 @@ class Admin extends Controller
      */
     public function index()
     {
-        //
+        echo "Is Admin";
     }
 
     /**
