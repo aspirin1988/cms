@@ -11,7 +11,7 @@
 
 @include('admin.layouts.header')
 
-<div class="tm-main uk-width-medium-3-4">
+<div class="tm-main uk-width-medium-5-6">
 
     @yield('content')
 

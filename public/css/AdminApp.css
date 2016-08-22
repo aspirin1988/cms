@@ -4,4 +4,7 @@
 .uk-nav-header a i {
   font-size: 25px; }
 
+#mainMenu.hidden-menu li span {
+  display: none; }
+
 /*# sourceMappingURL=AdminApp.css.map */

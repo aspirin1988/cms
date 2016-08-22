@@ -141,19 +141,19 @@
 </div>
 
 <div class="uk-grid" data-uk-grid-margin="">
-    <div class="tm-sidebar uk-width-medium-1-4 uk-hidden-small uk-row-first ">
+    <div class="tm-sidebar uk-width-medium-1-6 uk-hidden-small uk-row-first ">
         <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" id="mainMenu" data-uk-nav>
             <li class="uk-nav-header" id="adminConsole">
                 <a >
-                    <i class="uk-icon-dashboard"></i> Консоль</a>
+                    <i class="uk-icon-dashboard"></i> <span>Консоль</span></a>
             </li>
-            <li class="uk-parent" ><a href="#">Documentation</a>
+            <li class="uk-parent" ><a href="#">Страницы</a>
                 <ul class="uk-nav-sub">
-                    <li><a href="#">Item 1.1</a></li>
+                    <li><a href="/admin/edit/pages"><span>Все страницы</span></a></li>
+                    <li><a href="/admin/edit/page"><span>Добавить новую</span></a></li>
                 </ul>
             </li>
-            <li class="uk-nav-header">Core</li>
-            <li class="uk-parent" ><a href="#"><i class="uk-icon-wrench"></i> Defaults</a>
+            <li class="uk-parent" ><a href="#"><i class="uk-icon-wrench"></i><span> Defaults</span></a>
                 <ul class="uk-nav-sub">
                     <li><a href="#">Item 2.1</a></li>
                     <li><a href="#">Item 2.2</a></li>
